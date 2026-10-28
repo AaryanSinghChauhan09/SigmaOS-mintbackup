@@ -1,0 +1,10 @@
+[package]
+name = "sigmaos_mintbackup"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[lib]
+name = "sigmaos_mintbackup"
+path = "src/lib.rs"
