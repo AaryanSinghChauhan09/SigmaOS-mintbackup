@@ -18,16 +18,3 @@ cargo check --lib
 ## License
 
 Apache-2.0. See [`Cargo.toml`](Cargo.toml).
-
-## Inspiration
-
-This component is inspired by Linux Mint and Omarchy Linux to provide:
-- Single responsibility: One clear purpose
-- Loose coupling: Minimal dependencies
-- Stable interfaces: Well-defined APIs
-
-## Status
-
-- Architecture: Designed
-- Implementation: Planned
-- Testing: Planned
