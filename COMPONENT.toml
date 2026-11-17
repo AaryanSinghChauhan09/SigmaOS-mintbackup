@@ -3,12 +3,12 @@ name = "SigmaOS-mintbackup"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "mintbackup component"
+description = "Mint backup component for SigmaOS"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
