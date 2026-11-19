@@ -1,11 +1,15 @@
 [package]
-name = "sigmaos_mintbackup"
+name = "SigmaOS-mintbackup"
 version = "0.1.0"
 edition = "2021"
 license = "Apache-2.0"
-
-[dependencies]
+description = "SigmaOS sigmaos_mintbackup component"
 
 [lib]
 name = "sigmaos_mintbackup"
 path = "src/lib.rs"
+
+[dependencies]
+thiserror = "1"
+
+[dev-dependencies]
